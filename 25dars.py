@@ -76,6 +76,7 @@ class Avto:
     
     # def get_num_avto():
     #     return Avto.num_avto
+    
     @classmethod
     def get_num_avto(cls):
         return cls.__num_avto
