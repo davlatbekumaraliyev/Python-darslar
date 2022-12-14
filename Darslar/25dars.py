@@ -80,7 +80,7 @@ class Avto:
     @classmethod
     def get_num_avto(cls):
         return cls.__num_avto
-        
+
         
 avto1 = Avto("GM", "Malibu", "Qora", 2020, 40000, 1000) #UUID('6ed2d1cb-1ab2-41f9-a6f9-b8a8ebbcd575')
 avto2 = Avto("GM", "Malibu", "Qora", 2020, 40000, 1000)

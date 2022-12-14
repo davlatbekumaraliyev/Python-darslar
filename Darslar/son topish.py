@@ -45,11 +45,11 @@ def son_top(x=10):
     print(f"Siz {urunish}da urinishda topdingiz.")     
     print(f"Men {urunish2}da urunishda topdim.")
     if urunish > urunish2:
-        print("Men yutdim.")
+        print("Men yutdim!")
     elif urunish < urunish2:
-        print("Siz yutdingiz.")
+        print("Siz yutdingiz!")
     else:
-        print("Durrang.")
+        print("Durrang!")
 
 son_top()
 
