@@ -20,25 +20,25 @@ import json
 
 
 
-bemor = {
-    'ism': 'Alijon Valiyev', 
-    'yosh': 30,
-    'oila': True,
-    'farzandlar': ('Olim', 'Bonu'), 
-    'allergiya': None,
-    'dorilar': [
-        {'nomi': 'Tremol', 'miqdori': 0.5},
-        {'nomi': 'Panadol', 'miqdori': 1.2}
-        ],
-}
+# bemor = {
+#     'ism': 'Alijon Valiyev', 
+#     'yosh': 30,
+#     'oila': True,
+#     'farzandlar': ('Olim', 'Bonu'), 
+#     'allergiya': None,
+#     'dorilar': [
+#         {'nomi': 'Tremol', 'miqdori': 0.5},
+#         {'nomi': 'Panadol', 'miqdori': 1.2}
+#         ],
+# }
 
 # sonlar = (12, 34, 56, 78, 90)
 
 # bemor_json = json.dumps(bemor)
 # # print(bemor_json)
 
-with open('bemor.json', 'w') as f:
-    json.dump(bemor, f)
+# with open('bemor.json', 'w') as f:
+#     json.dump(bemor, f)
 
 # with open('sonlar2.json', 'w') as f2:
 #     json.dump(sonlar, f2)
@@ -47,12 +47,28 @@ with open('bemor.json', 'w') as f:
 
 # m2 = json.loads(m_json)
 
-filename = 'bemor.json'
-with open(filename) as f:
-    bemor = json.load(f)
-print(bemor)
-print(type(bemor))
+# filename = 'bemor.json'
+# with open(filename) as f:
+#     bemor = json.load(f)
+# print(bemor)
+# print(type(bemor))
 
+# talaba = {
+#     'ism': 'Islom',
+#     'yosh': 21,
+#     'oila': False,
+#     'fanlar': ('matematika', 'fizika'),
+#     'baholar': [
+#         {'fan': 'matematika', 'baho': 4},
+#         {'fan': 'fizika', 'baho': 5}
+#         ]
+#     }
+
+# talaba_json = json.dumps(talaba)
+
+
+# with open('talaba.json', 'w') as f:
+#     json.dump(talaba, f)
 
 
 
