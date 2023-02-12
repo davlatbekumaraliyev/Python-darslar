@@ -136,7 +136,7 @@ t2 = Teacher('Ali', 'vali', 'slimovich', 'matematika', 'samarqand', 998765432, "
 # r = requests.get(page)
 # pprint(r.text)
 
-sonlar = [ 
+y = [ 
 1, 
 2, 
 3, 
@@ -165,7 +165,6 @@ sonlar = [
 26, 
 27, 
 28, 
-29, 
 30, 
 31, 
 32, 
@@ -184,8 +183,6 @@ sonlar = [
 45, 
 46, 
 47, 
-48, 
-49, 
 50, 
 51, 
 52, 
@@ -201,7 +198,6 @@ sonlar = [
 62, 
 63, 
 64, 
-65, 
 66, 
 67, 
 68, 
@@ -217,7 +213,6 @@ sonlar = [
 79, 
 80, 
 81, 
-82, 
 83, 
 84, 
 85, 
@@ -234,20 +229,19 @@ sonlar = [
 96, 
 97, 
 98, 
-99, 
 100
 ]
 
 
-
-a = 0
-for e in sonlar:
-    a += 1
-    if a != e:
-        print(a)
+def top(sonlar):   
+    a = 0
+    for e in sonlar:
         a += 1
+        if a != e:
+            print(a)
+            a += 1
           
-    
+print(top(y))
 
 
 
